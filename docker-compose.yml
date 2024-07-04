@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  web:
+    image: uorf:11
+    ports:
+      - "8077:8077"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
