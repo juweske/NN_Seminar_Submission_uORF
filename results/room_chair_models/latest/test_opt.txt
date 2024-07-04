@@ -1,0 +1,57 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+                attn_iter: 3                             
+               batch_size: 1                             
+                   bottom: False                         
+          checkpoints_dir: ./                            	[default: ./checkpoints]
+                custom_lr: True                          
+                 dataroot: room_chair_test               	[default: None]
+             dataset_mode: multiscenes_manip             	[default: multiscenes]
+              display_env: main                          
+             display_freq: 400                           
+               display_id: 1                             
+            display_ncols: 4                             
+             display_port: 8077                          	[default: 8097]
+           display_server: http://localhost              
+                    epoch: latest                        
+                     eval: False                         
+                   exp_id: latest                        	[default: run-2024-07-04-14-24-30]
+                far_plane: 20                            
+           fixed_locality: False                         
+             frustum_size: 128                           
+                  gpu_ids: 0                             
+                 input_nc: 3                             
+               input_size: 64                            
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 128                           	[default: 286]
+                       lr: 0.0003                        
+                lr_policy: warmup                        
+                mask_size: 128                           
+         max_dataset_size: inf                           
+                    model: uorf_manip                    	[default: uorf]
+                   n_freq: 5                             
+         n_img_each_scene: 4                             	[default: 10]
+                  n_layer: 3                             
+                   n_samp: 256                           	[default: 64]
+                 n_scenes: 500                           	[default: 1000]
+                     name: room_chair_models             	[default: experiment_name]
+               near_plane: 6                             
+                    niter: 1200                          
+              niter_decay: 0                             
+               no_shuffle: False                         
+                nss_scale: 7                             
+                num_slots: 5                             	[default: 8]
+              num_threads: 0                             
+                obj_scale: 4.5                           
+                output_nc: 3                             
+                    phase: test                          
+              render_size: 8                             	[default: 64]
+              results_dir: results                       	[default: ./results/]
+                     seed: 2021                          
+           serial_batches: False                         
+                   suffix:                               
+             testset_name: testset                       
+                  verbose: False                         
+                    z_dim: 64                            
+----------------- End -------------------
